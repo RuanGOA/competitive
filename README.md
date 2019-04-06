@@ -1,3 +1,3 @@
 # Competitive
 
-Some of my competitive programming programs(tentative of organization HAHAHA).
+Some of my competitive programming programs(trying organize HAHAHA).
