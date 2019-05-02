@@ -4,8 +4,8 @@ int find (int a){
 }
 
 void union(int a, int b){
-  pai_a = find(a);
-  pai_b = find(b);
+  int pai_a = find(a);
+  int pai_b = find(b);
   
   if(pai_a == pai_b]) return;
   if(rank[pai_a] > rank[pai_b]){
