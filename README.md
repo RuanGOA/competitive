@@ -1,3 +1,5 @@
-# Competitive
+# competitive-programming
 
-Some of my competitive programming programs(trying organize HAHAHA).
+This repository contains some of my codes for questions for the Judges and some algorithms that I think are relevant.
+
+Still lacking a lot of thing to learn, but i will keep this repository updated ;)
