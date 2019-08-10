@@ -2,16 +2,13 @@
 
 using namespace std;
 
-int main(){
-	int n, m;
-	scanf("%d %d",&n ,&m);
+int r, c;
 
-	if(n <= m){
-		if(n % 2 == 0) cout << "Malvika" << "\n";
-		else cout << "Akshat" << "\n";
-	}
-	else{
-		if(m % 2 == 0) cout << "Malvika" << "\n";
-		else cout << "Akshat" << "\n";	
-	}
+int main() {
+    scanf("%d %d", &r, &c);
+
+    if(r == 1 || c == 1) cout << "Akshat" << endl;
+    else cout << (((r * c) % 2 != 0) ? "Akshat" : "Malvika") << endl; 
+
+    return 0;
 }
