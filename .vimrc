@@ -1,4 +1,4 @@
-"Presets of Rua Gomes                                                 
+"Presets of Ruan Gomes                                                 
 "UFCG student
 
 "Presets GERAL
