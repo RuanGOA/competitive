@@ -67,13 +67,14 @@ int main() {
     build(1, 1, n);
 
     cin >> q;
+    q *= 2;
     char var;
     for(int i = 0; i < q; i++) {
         scanf("%c %d %d", &var, &in, &to);
 
         if(var == 'U') {
             update(1, 1, n, in, to);
-        } else {
+        } else if(var == 'Q') {
             cout << query(1, 1, n, in, to) << endl;
         }
     }
