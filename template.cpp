@@ -22,6 +22,7 @@ int arr[MAXS];
 int main() {
    //IN OU
    //cout << (unsigned long long) __builtin_inf() << endl;
-   
+   ios::sync_with_stdio(false);cin.tie(0);
+
    return 0;
 }
